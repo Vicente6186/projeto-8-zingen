@@ -1,0 +1,13 @@
+#about{
+    padding-block: 8rem;
+    background-color: var(--surface-color);
+    
+    .container {
+        display: flex;
+        align-items: center;
+        gap: 3.2rem;
+    }
+    
+    h2 {margin-block: .8rem;}
+    img { width: 54.4rem; }
+}

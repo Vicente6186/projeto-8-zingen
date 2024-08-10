@@ -1,0 +1,13 @@
+header{
+   padding-block: 2.4rem;
+    nav {
+        display: flex;
+        align-items: center;
+        gap: 2.4rem;
+
+        a:nth-child(1){
+            margin-right: auto;
+        }
+    }
+    
+}

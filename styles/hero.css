@@ -1,0 +1,12 @@
+#hero {
+    text-align: center;
+    padding-block: 8rem 15rem;
+    background: url(../assets/icons/hero-bg.svg) no-repeat center 80%/cover;
+
+    div { margin-top: 4.8rem; }
+    a:nth-of-type(1) { margin-right: 1.6rem;  }
+}
+
+h1 {
+    margin-block: 2.4rem 1.6rem;
+}
