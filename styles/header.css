@@ -1,13 +1,16 @@
-header{
-   padding-block: 2.4rem;
-    nav {
+header {
+    padding-block: 1.6rem;
+  
+    & nav {
         display: flex;
         align-items: center;
         gap: 2.4rem;
-
-        a:nth-child(1){
-            margin-right: auto;
-        }
+        & a:first-child {margin-right: auto;}
     }
-    
+}
+
+@media (min-width: 1280px) {
+    header {
+        padding-block: 2.4rem;
+    }
 }

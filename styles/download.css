@@ -1,0 +1,48 @@
+#download {
+    padding-block: 4.8rem;
+    
+    & h2 {
+        margin-block: .8rem;
+    }
+    
+    & .card {
+        background: var(--surface-color);
+        padding-inline: 2.4rem;
+        padding-top: 4.8rem;
+        padding-bottom: 24rem;
+        border-radius: 2.4rem;
+        position: relative;
+        
+        & a:nth-of-type(1) { display: block; margin-block: 3.2rem 1.5rem; }
+        
+        
+        & img:nth-child(2){
+            position: absolute;
+            width: 23.8rem;
+            bottom: 0;
+            right: -4rem;
+        }
+    }
+    
+    
+}
+
+@media (min-width: 1280px){
+    #download{
+        padding-block: 8rem;
+        
+        & .card {
+            padding: 14rem 8rem;
+            
+            & a:nth-of-type(1) { display: inline-block; margin-right: .8rem; }
+            
+
+            & div:nth-child(1){
+                max-width: 64rem;
+            }
+            & img:nth-child(2){
+                width: 46.6rem;
+            }
+        }
+    }
+}

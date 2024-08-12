@@ -1,12 +1,39 @@
 #hero {
     text-align: center;
-    padding-block: 8rem 15rem;
-    background: url(../assets/icons/hero-bg.svg) no-repeat center 80%/cover;
-
-    div { margin-top: 4.8rem; }
-    a:nth-of-type(1) { margin-right: 1.6rem;  }
+    padding-top: 6.4rem;
+    background: url(../assets/icons/hero-bg.svg) no-repeat center bottom/cover;
+    
+    & h1 {
+        margin-block: 1.6rem .8rem;
+    }
+    
+    & .buttons  {
+        margin-top: 3.2rem;
+        display: flex;
+        gap: 1.6rem;
+        justify-content: center;
+    }
+    
+    & img:last-child {
+        margin-top: 8.3rem;
+    }
 }
 
-h1 {
-    margin-block: 2.4rem 1.6rem;
+@media (min-width: 1280px) {
+    #hero {    
+        padding-bottom: 23.9rem;
+        & h1 {
+            margin-block: 2.4rem 1.6rem;
+        } 
+        
+        & .buttons  {
+            margin-top: 4.8rem;
+            font-size: 1.8rem;
+        }
+
+        & img:last-child {
+           display: none;
+        }
+    } 
 }
+
